@@ -8,7 +8,7 @@ while (True):
         if int(top_range)<=0:
             print("Enter a number lager than 0: ")
         else:
-            mystery_number = random.randint(0,int(top_range)+1) #To set the mystery number
+            mystery_number = random.randint(0,int(top_range)) #To set the mystery number
             break
     else:
         print("Enter a number!!!")
@@ -31,3 +31,4 @@ while (count<5): #Setting up the game for 5 tries
     else:
         print("The mystery number is 'Higher'\n")
 print(f"It was {mystery_number}\nBetter luck next time...")
+
